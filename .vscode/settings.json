@@ -1,4 +1,10 @@
 {
-    "liveServer.settings.root": "/docs/",
-    "editor.minimap.enabled": false
+  "liveServer.settings.root": "/docs/",
+  "files.eol": "\n",
+  "editor.rulers": [
+    80,
+    100,
+    120
+  ],
+  "editor.tabSize": 2,
 }
