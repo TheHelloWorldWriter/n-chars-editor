@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/styles/normalize.css">
   <link rel="stylesheet" href="/styles/app.css">
 
-  <title>Custom Length Text Editor | N Chars</title>
+  <title>Custom Length Text Editor | N Chars Editor</title>
   <meta name="description" content="Instantly create a text editor with your desired character limit. Write to any specific length for social media, headlines, or other constrained text.">
 </head>
 
@@ -19,7 +19,7 @@
   <header class="top-app-bar">
 
     <section class="top-app-bar__section">
-      <input type="number" id="maxlength-input" class="top-app-bar__input--title" value="280" placeholder="N" min="1" aria-label="Maximum character limit">
+      <input type="number" id="maxlength-input" class="top-app-bar__input--title" value="100" placeholder="N" min="1" aria-label="Maximum character limit">
       <h1 class="top-app-bar__title">Chars Editor</h1>
     </section>
 
@@ -34,7 +34,7 @@
   </header>
 
   <main class="main">
-    <textarea class="editor-textarea" id="editor-textarea" maxlength="280" aria-label="Text editor"></textarea>
+    <textarea class="editor-textarea" id="editor-textarea" maxlength="100" aria-label="Text editor"></textarea>
     <div id="editor-counter" class="editor-counter"></div>
   </main>
 
