@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="/styles/normalize.css">
   <link rel="stylesheet" href="/styles/app.css">
 
-  <title>N Chars Editor</title>
+  <title>Custom Length Text Editor | N Chars</title>
+  <meta name="description" content="Instantly create a text editor with your desired character limit. Write to any specific length for social media, headlines, or other constrained text.">
 </head>
 
 <body>
@@ -18,22 +19,22 @@
   <header class="top-app-bar">
 
     <section class="top-app-bar__section">
-      <input type="number" id="maxlength-input" class="top-app-bar__input--title" value="280" placeholder="N">
+      <input type="number" id="maxlength-input" class="top-app-bar__input--title" value="280" placeholder="N" min="1" aria-label="Maximum character limit">
       <h1 class="top-app-bar__title">Chars Editor</h1>
     </section>
 
     <section class="top-app-bar__section">
       <button class="image-button" id="copy-button">
-        <img src="assets/copy.svg" />
+        <img src="assets/copy.svg" alt="Copy text">
       </button>
       <button class="image-button" id="paste-button">
-        <img src="assets/paste.svg" />
+        <img src="assets/paste.svg" alt="Paste text">
       </button>
     </section>
   </header>
 
   <main class="main">
-    <textarea class="editor-textarea" id="editor-textarea" maxlength="280"></textarea>
+    <textarea class="editor-textarea" id="editor-textarea" maxlength="280" aria-label="Text editor"></textarea>
     <div id="editor-counter" class="editor-counter"></div>
   </main>
 
