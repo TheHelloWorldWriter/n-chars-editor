@@ -1,85 +1,104 @@
 :root {
-    --primary: #6200ee;
-  }
+  --primary: #6200ee;
+}
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .top-app-bar {
-    background-color: var(--primary);
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    height: 64px;
-    padding: 0 1rem;
+  background-color: var(--primary);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 0.75rem;
 }
 
 .top-app-bar__section {
-    display: inline-flex;
-    align-items: center;
-    
+  align-items: center;
+  display: inline-flex;
 }
 
 .top-app-bar__input--title {
-    background-color: inherit;
-    border: none;
-    border-bottom: 1px solid;
-    color: #fff;
-    margin-right: 0.5rem;
-    text-align: right;
-    width: 6ch;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid;
+  color: #fff;
+  margin-right: 0.5rem;
+  text-align: right;
+  width: 6ch;
 }
 
 .top-app-bar__input--title:focus {
-    outline: none;
-    border-bottom-width: 2px;
+  outline: none;
+  border-bottom-width: 2px;
 }
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
-.top-app-bar__title, .top-app-bar__input--title {
-    font-size: 1.25rem;
-    line-height: 2rem;
-    font-weight: 500;
-    letter-spacing: .0125em;
-    -webkit-font-smoothing: antialiased;
+.top-app-bar__title,
+.top-app-bar__input--title {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 500;
+  letter-spacing: .0125em;
+  -webkit-font-smoothing: antialiased;
 }
 
 .top-app-bar__title {
-    margin: 0;
+  margin: 0;
 }
 
 .image-button {
-    background-color: transparent;
-    border: none;
-    padding: 1rem;
-    cursor: pointer;
-    border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  padding: 1rem 0.75rem;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
 .image-button:focus-visible {
-    outline: 2px solid #fff;
-    outline-offset: -4px;
+  outline: 2px solid #fff;
+  outline-offset: -4px;
+}
+
+.image-button img {
+  width: 24px;
+  height: 24px;
 }
 
 .main {
-    padding: 2rem;
+  padding: 1rem;
 }
 
 .editor-textarea {
-    height: 80vh;
-    width: 100%;
+  height: 80vh;
+  width: 100%;
 }
 
 .editor-textarea:focus {
-    outline-color: var(--primary);
+  outline-color: var(--primary);
 }
 
 .editor-counter {
-    color: var(--primary);
-    text-align: right;
+  color: var(--primary);
+  text-align: right;
+}
+
+@media (min-width: 400px) {
+  .top-app-bar {
+    padding: 0 1rem;
+  }
+
+  .image-button {
+    padding: 1rem;
+  }
+
+  .main {
+    padding: 2rem;
+  }
 }
