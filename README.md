@@ -1,5 +1,9 @@
 # N Chars Editor
 
+[![MIT License badge](https://img.shields.io/github/license/TheHelloWorldWriter/n-chars-editor?color=9c0000)](LICENSE)
+[![GitHub Code Size badge](https://img.shields.io/github/languages/code-size/TheHelloWorldWriter/n-chars-editor)](https://github.com/TheHelloWorldWriter/n-chars-editor)
+[![Contributions Welcome badge](https://img.shields.io/badge/contributions-welcome-cornflowerblue)](#Contributing)
+
 This is a simple web-based text editor that I created to help you write text with a specific character limit. I often need to write software descriptions, app store listings, headlines, and other text content where the length is constrained, so I built this tool to make that process easier. It's a "Hello World" style application, meaning it's intentionally simple and built with basic web technologies.
 
 It also can be a learning resource for those new to web development. The code is written in plain HTML, CSS, and JavaScript, with no external libraries or frameworks. I've also added comments throughout the (although very simple) HTML, CSS, and JavaScript code to explain how it works.
@@ -54,7 +58,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Want to See More?
 
-I'm The Hello World Writer, and I'm passionate about creating simple, useful, and educational open-source projects like this one. I have many more "Hello World" apps and programs that I've created over the years and would love to polish and release to the world.
+I'm [The Hello World Writer](https://www.thehelloworldwriter.com/), and I'm passionate about creating simple open-source projects like this one while exploring, playing, experimenting, and learning. I have many more "Hello World" apps and programs that I've created over the years and would love to polish and release to the world.
 
 To help me dedicate more time to this, you can support me by checking out the apps I've published under [Tecdrop](https://www.tecdrop.com/), a brand I founded for my mobile applications. I offer a couple of Pro apps to customize your phone's wallpaper. You can set a perfect, battery-saving pitch-black screen—or explore hundreds of alternatives, from shades of gray to unique, AI-crafted wallpapers. You can also set any solid color imaginable or browse a curated collection of thousands of named colors, featuring everything from historical tones and sophisticated shades to essential basics.
 
