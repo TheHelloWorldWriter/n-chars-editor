@@ -6,7 +6,7 @@ It also can be a learning resource for those new to web development. The code is
 
 You can find the live version of the editor at [nchars.thehelloworldwriter.com](https://nchars.thehelloworldwriter.com/).
 
-![N Chars Editor Screenshot](https://raw.githubusercontent.com/TheHelloWorldWriter/n-chars-editor/main/docs/n-chars-editor-screenshot.png)
+![N Chars Editor Screenshot](repo-assets/n-chars-editor-screenshot.png)
 
 ## Features
 
@@ -28,7 +28,7 @@ The main files are:
 
 ## Running Locally
 
-To run this project on your local machine, you'll need a simple web server. You can't just open the `docs/index.html` file in your browser because of how JavaScript modules are handled.
+To run this project on your local machine, you'll need a simple web server.
 
 1.  Clone this repository:
     ```bash
