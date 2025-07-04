@@ -59,3 +59,5 @@ I'm The Hello World Writer, and I'm passionate about creating simple, useful, an
 To help me dedicate more time to this, you can support me by checking out the apps I've published under [Tecdrop](https://www.tecdrop.com/), a brand I founded for my mobile applications. I offer a couple of Pro apps to customize your phone's wallpaper. You can set a perfect, battery-saving pitch-black screen—or explore hundreds of alternatives, from shades of gray to unique, AI-crafted wallpapers. You can also set any solid color imaginable or browse a curated collection of thousands of named colors, featuring everything from historical tones and sophisticated shades to essential basics.
 
 By purchasing one of these [Pro apps](https://www.tecdrop.com/apps/pro/), you're directly helping me create more free and open-source "Hello World" projects. Thank you for your support!
+
+<img src="repo-assets/tecdrop-logo.png" alt="Tecdrop logo" width="300">
