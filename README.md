@@ -51,3 +51,11 @@ To run this project on your local machine, you'll need a simple web server.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Want to See More?
+
+I'm The Hello World Writer, and I'm passionate about creating simple, useful, and educational open-source projects like this one. I have many more "Hello World" apps and programs that I've created over the years and would love to polish and release to the world.
+
+To help me dedicate more time to this, you can support me by checking out the apps I've published under [Tecdrop](https://www.tecdrop.com/), a brand I founded for my mobile applications. I offer a couple of Pro apps to customize your phone's wallpaper. You can set a perfect, battery-saving pitch-black screen—or explore hundreds of alternatives, from shades of gray to unique, AI-crafted wallpapers. You can also set any solid color imaginable or browse a curated collection of thousands of named colors, featuring everything from historical tones and sophisticated shades to essential basics.
+
+By purchasing one of these [Pro apps](https://www.tecdrop.com/apps/pro/), you're directly helping me create more free and open-source "Hello World" projects. Thank you for your support!
