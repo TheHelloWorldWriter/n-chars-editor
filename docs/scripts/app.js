@@ -82,7 +82,7 @@ pasteButton.addEventListener("click", () => {
   navigator.clipboard.readText()
     .then(text => {
       editorTextarea.value = text.slice(0, editorTextarea.maxLength);
-      console.log('Pasted content: ', text);
+      console.log('Pasted text from clipboard');
       updateCounter();
     })
     .catch(err => {

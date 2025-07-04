@@ -1,21 +1,41 @@
+/* -------------------------------------------------------------------------- */
+/* Root Variables and Global Styles                                           */
+/* -------------------------------------------------------------------------- */
+
 :root {
   --primary: #6200ee;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin: 0;
-  height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  height: 100vh;
+  margin: 0;
 }
+
+/* Remove spinner buttons from number input */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Top App Bar                                                                */
+/* -------------------------------------------------------------------------- */
 
 .top-app-bar {
   background-color: var(--primary);
   color: #fff;
   display: flex;
-  justify-content: space-between;
   height: 64px;
+  justify-content: space-between;
   padding: 0 0.75rem;
 }
 
@@ -26,8 +46,10 @@ body {
 
 .top-app-bar__input--title {
   background-color: inherit;
+
   border: none;
   border-bottom: 1px solid;
+
   color: #fff;
   margin-right: 0.5rem;
   text-align: right;
@@ -35,22 +57,16 @@ body {
 }
 
 .top-app-bar__input--title:focus {
-  outline: none;
   border-bottom-width: 2px;
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
+  outline: none;
 }
 
 .top-app-bar__title,
 .top-app-bar__input--title {
   font-size: 1.25rem;
-  line-height: 2rem;
   font-weight: 500;
   letter-spacing: .0125em;
-  -webkit-font-smoothing: antialiased;
+  line-height: 2rem;
 }
 
 .top-app-bar__title {
@@ -59,21 +75,34 @@ input[type=number]::-webkit-outer-spin-button {
 
 .image-button {
   background-color: transparent;
-  border: none;
-  padding: 1rem 0.75rem;
-  cursor: pointer;
   border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 0.75rem;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .image-button:focus-visible {
-  outline: 2px solid #fff;
   outline-offset: -4px;
+  outline: 2px solid #fff;
 }
 
 .image-button img {
-  width: 24px;
   height: 24px;
+  width: 24px;
 }
+
+.image-button:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.image-button:active {
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Main Content Area                                                          */
+/* -------------------------------------------------------------------------- */
 
 .main {
   display: flex;
@@ -84,9 +113,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .editor-textarea {
-  width: 100%;
   flex-grow: 1;
   resize: none;
+  width: 100%;
 }
 
 .editor-textarea:focus {
@@ -97,6 +126,10 @@ input[type=number]::-webkit-outer-spin-button {
   color: var(--primary);
   text-align: right;
 }
+
+/* -------------------------------------------------------------------------- */
+/* Media Queries for Responsive Design                                        */
+/* -------------------------------------------------------------------------- */
 
 @media (min-width: 400px) {
   .top-app-bar {
