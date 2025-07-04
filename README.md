@@ -60,4 +60,7 @@ To help me dedicate more time to this, you can support me by checking out the ap
 
 By purchasing one of these [Pro apps](https://www.tecdrop.com/apps/pro/), you're directly helping me create more free and open-source "Hello World" projects. Thank you for your support!
 
-<img src="repo-assets/tecdrop-logo.png" alt="Tecdrop logo" width="300">
+<br>
+<a href="https://www.tecdrop.com/">
+  <img src="repo-assets/tecdrop-logo.png" alt="Tecdrop logo" width="300">
+</a>
