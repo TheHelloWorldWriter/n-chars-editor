@@ -17,12 +17,13 @@
 <body>
 
   <header class="top-app-bar">
-
+    <!-- The title and input for setting the character limit -->
     <section class="top-app-bar__section">
       <input type="number" id="maxlength-input" class="top-app-bar__input--title" value="100" placeholder="N" min="1" title="Set your custom character limit" aria-label="Maximum character limit" tabindex="1">
       <h1 class="top-app-bar__title">Chars Editor</h1>
     </section>
 
+    <!-- The action buttons for copy, paste, and GitHub link -->
     <section class="top-app-bar__section">
       <button class="image-button" id="copy-button" title="Copy text" tabindex="3">
         <img src="/assets/copy.svg" alt="Copy text">
@@ -37,10 +38,12 @@
   </header>
 
   <main class="main">
+    <!-- The text editor area where users can write their text -->
     <textarea class="editor-textarea" id="editor-textarea" maxlength="100" aria-label="Text editor" tabindex="2"></textarea>
+
+    <!-- The character counter that displays both the current character count and the maximum allowed -->
     <div id="editor-counter" class="editor-counter"></div>
   </main>
-
 
   <script type="module" src="/scripts/app.js"></script>
 </body>
